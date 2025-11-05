@@ -1,54 +1,44 @@
-# 🏠 Geo-Enabled Rental Room Finder (MERN Stack)
+# 🏠 Geo-Enabled Rental Room Finder
 
-A **full-stack web application** built with the **MERN (MongoDB, Express, React, Node.js)** stack that helps users **find nearby rental rooms** on an **interactive map**. The system provides **secure authentication**, **real-time location-based search**, and a **user-friendly dashboard** for room postings.
-
----
-
-## 🚀 Features
-
-✅ **JWT Authentication & Protected Routes**  
-- Secure login and registration using **JSON Web Tokens (JWT)**  
-- Protected routes for user-specific actions like posting or editing rooms  
-
-✅ **Interactive Map-based Search**  
-- Integrated **Leaflet.js** and **Geolocation API** to locate nearby rooms  
-- Adjustable search radius (1–10 km) for customized discovery  
-
-✅ **Room Posting Dashboard**  
-- Logged-in users can **post new rooms** with details like title, price, and preferences  
-- Manage or delete existing posts from the dashboard  
-
-✅ **Modern Responsive UI**  
-- Built with **Bootstrap** for clean, responsive design  
-- Smooth **state management** using **React Context API**  
+A **MERN stack** web application that helps users discover rental rooms near their current location using an interactive map.  
+It includes secure authentication, map-based search within a user-defined range, and a dashboard for posting or managing rooms.
 
 ---
 
-## 🧩 Tech Stack
+## 🚀 Main Features
 
-| Layer | Technology |
-|-------|-------------|
+- 🔐 **Secure Authentication** — User login and registration are handled with **JWT tokens** and protected routes.
+- 🗺️ **Map-Based Room Search** — Uses **Leaflet.js** and the **Geolocation API** to locate rooms within a 1–10 km radius.
+- 🏡 **Room Posting Dashboard** — Authenticated users can add rooms with details such as title, price, and preferences.
+- 📱 **Responsive Interface** — Built with **Bootstrap** for a smooth experience across devices.
+- ⚡ **Context API State Management** — Manages global state efficiently without external libraries.
+
+---
+
+## 🧩 Technologies Used
+
+| Area | Technologies |
+|------|---------------|
 | Frontend | React.js, Bootstrap, Leaflet.js, Context API |
 | Backend | Node.js, Express.js |
 | Database | MongoDB, Mongoose |
-| Authentication | JWT (JSON Web Token) |
-| APIs | RESTful APIs |
+| Authentication | JSON Web Tokens (JWT) |
+| API Design | RESTful APIs |
 
 ---
 
-## 🗺️ Core Functionality
+## 🗺️ Application Modules
 
 | Module | Description |
 |---------|-------------|
-| **User Authentication** | Register, Login, Logout with JWT and protected routes |
-| **Room Search** | Find rooms based on user’s current location |
-| **Map Integration** | Interactive Leaflet map with distance radius selector |
-| **Room Posting** | Add room listings with details (title, price, preferences) |
-| **Responsive UI** | Works across all devices with modern UI design |
+| **Authentication** | Handles user login, registration, and access control with JWT. |
+| **Map Search** | Displays nearby room listings on an interactive map. |
+| **Room Management** | Allows users to create, edit, or delete their own listings. |
+| **Responsive UI** | Provides a consistent layout for mobile and desktop. |
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ How to Run Locally
 
 ### 1️⃣ Clone the Repository
 ```bash
