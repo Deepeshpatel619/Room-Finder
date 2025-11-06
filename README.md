@@ -46,9 +46,20 @@ It integrates browser geolocation with Leaflet maps and provides an easy way for
 
 ---
 
-## 5. Installation and Setup
+## 5. Project Screenshots
 
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/Deepeshpatel619/Room-Finder.git
-cd Room-Finder
+### Home Page
+![Home Page](home.png)
+
+### Register Page
+![Register Page](register.png)
+
+### Login Page
+![Login Page](login.png)
+
+### Room Post Page
+![Room Post Page](RoomPost.png)
+
+### Available Rooms Page
+![Available Rooms Page](availableRoom.png)
+
