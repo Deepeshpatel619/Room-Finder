@@ -58,8 +58,8 @@ It integrates browser geolocation with Leaflet maps and provides an easy way for
 ![Login Page](login.png)
 
 ### Room Post Page
-![Room Post Page](RoomPost.png)
+![Room Post Page](roomPost.png)
 
 ### Available Rooms Page
-![Available Rooms Page](availableRoom.png)
+![Available Rooms Page](availableRooms.png)
 
